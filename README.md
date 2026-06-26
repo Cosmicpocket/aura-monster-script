@@ -2,6 +2,8 @@
 Some personal scripts I use. Some are stolen and entirely made by someone else. I will link the github or at least mention which ones I "borrowed".
 
 # aura monster
+I made this one.
+
 It uses dimland, playerctl, sox(play command), hyprctl, ironbar (for notifications but there is comments for using notify-send which is usable with other notification stuff.)
 
 Ironbar is used with it but should pretty easily be edited to use polybar or any other bar because all it does is changed config and style with -c and -t
