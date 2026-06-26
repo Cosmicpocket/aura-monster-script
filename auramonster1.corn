@@ -1,0 +1,96 @@
+{
+    position = "bottom"
+    height = 30
+    start = []
+    center = [
+        {
+            type = "label"
+            label = " 𝓐𝓤𝓡𝓐 𝓜𝓞𝓝𝓢𝓣𝓔𝓡 "
+        }
+        {
+            type = "label"
+            label = " 𝓐𝓤𝓡𝓐 𝓜𝓞𝓝𝓢𝓣𝓔𝓡 "
+        }
+        {
+            type = "label"
+            label = " 𝓐𝓤𝓡𝓐 𝓜𝓞𝓝𝓢𝓣𝓔𝓡 "
+        }
+        {
+            type = "label"
+            label = " 𝓐𝓤𝓡𝓐 𝓜𝓞𝓝𝓢𝓣𝓔𝓡 "
+        }
+        {
+            type = "label"
+            label = " 𝓐𝓤𝓡𝓐 𝓜𝓞𝓝𝓢𝓣𝓔𝓡 "
+        }
+        {
+            type = "label"
+            label = " 𝓐𝓤𝓡𝓐 𝓜𝓞𝓝𝓢𝓣𝓔𝓡 "
+        }
+        {
+            type = "label"
+            label = " 𝓐𝓤𝓡𝓐 𝓜𝓞𝓝𝓢𝓣𝓔𝓡 "
+        }
+        {
+            type = "label"
+            label = " 𝓐𝓤𝓡𝓐 𝓜𝓞𝓝𝓢𝓣𝓔𝓡 "
+        }
+        {
+            type = "label"
+            label = " 𝓐𝓤𝓡𝓐 𝓜𝓞𝓝𝓢𝓣𝓔𝓡 "
+        }
+        {
+            type = "label"
+            label = " 𝓐𝓤𝓡𝓐 𝓜𝓞𝓝𝓢𝓣𝓔𝓡 "
+        }
+        {
+            type = "label"
+            label = " 𝓐𝓤𝓡𝓐 𝓜𝓞𝓝𝓢𝓣𝓔𝓡 "
+        }
+        {
+            type = "label"
+            label = " 𝓐𝓤𝓡𝓐 𝓜𝓞𝓝𝓢𝓣𝓔𝓡 "
+        }
+        {
+            type = "label"
+            label = " 𝓐𝓤𝓡𝓐 𝓜𝓞𝓝𝓢𝓣𝓔𝓡 "
+        }
+        {
+            type = "label"
+            label = " 𝓐𝓤𝓡𝓐 𝓜𝓞𝓝𝓢𝓣𝓔𝓡 "
+        }
+        {
+            type = "label"
+            label = " 𝓐𝓤𝓡𝓐 𝓜𝓞𝓝𝓢𝓣𝓔𝓡 "
+        }
+        {
+            type = "label"
+            label = " 𝓐𝓤𝓡𝓐 𝓜𝓞𝓝𝓢𝓣𝓔𝓡 "
+        }
+        {
+            type = "label"
+            label = " 𝓐𝓤𝓡𝓐 𝓜𝓞𝓝𝓢𝓣𝓔𝓡 "
+        }
+        {
+            type = "label"
+            label = " 𝓐𝓤𝓡𝓐 𝓜𝓞𝓝𝓢𝓣𝓔𝓡 "
+        }
+        {
+            type = "label"
+            label = " 𝓐𝓤𝓡𝓐 𝓜𝓞𝓝𝓢𝓣𝓔𝓡 "
+        }
+        {
+            type = "label"
+            label = " 𝓐𝓤𝓡𝓐 𝓜𝓞𝓝𝓢𝓣𝓔𝓡 "
+        }
+        {
+            type = "label"
+            label = " 𝓐𝓤𝓡𝓐 𝓜𝓞𝓝𝓢𝓣𝓔𝓡 "
+        }
+        {
+            type = "label"
+            label = " 𝓐𝓤𝓡𝓐 𝓜𝓞𝓝𝓢𝓣𝓔𝓡 "
+        }
+    ]
+    end = []
+}

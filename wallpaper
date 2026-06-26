@@ -1,0 +1,6 @@
+#!/bin/bash
+
+DIR=$HOME/Pictures/wallpapers
+
+awww img ${DIR}/$1 -t wipe --transition-step 180 --transition-duration 1.0 --transition-angle 135
+notify-send "$1"

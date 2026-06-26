@@ -1,0 +1,77 @@
+#!/bin/bash
+
+TOGGLE=$HOME/.auratoggle
+
+if [ ! -e $TOGGLE ]; then
+    touch $TOGGLE
+    sleep 0.1
+    dimland --allow-opaque -a .1
+    sleep 0.1
+    dimland --allow-opaque -a .2
+    sleep 0.1
+    dimland --allow-opaque -a .3
+    sleep 0.1
+    dimland --allow-opaque -a .4
+    sleep 0.1
+    dimland --allow-opaque -a .5
+    sleep 0.1
+    dimland --allow-opaque -a .6
+    sleep 0.1
+    dimland --allow-opaque -a .7
+    sleep 0.1
+    dimland --allow-opaque -a .8
+    sleep 0.1
+    dimland --allow-opaque -a .9
+    sleep 0.1
+    playerctl pause
+    awww img $HOME/Scripts/auramonster.gif -t grow --transition-step 180 --transition-duration 1
+    pkill ironbar
+    ironbar -c $HOME/Scripts/auramonster.corn -t $HOME/Scripts/auramonster.css &
+    dimland --allow-opaque -a 1
+    sleep 1.5
+    dimland --allow-opaque -a 0.97
+    (play -q $HOME/Scripts/auramonster1.mp3) &
+    hyprctl notify -1 2500 "#71E078" "fontsize:500 HAPPY BIRTHDAY DANIEL"
+    #notify-send "HAPPY BIRTHDAY DANIEL"
+    (play -q $HOME/Scripts/auramonster1hour.mp3) &
+    sleep 0.75
+    dimland --allow-opaque -a 0.95
+    sleep 0.75
+    dimland --allow-opaque -a 0.92
+    (play -q $HOME/Scripts/auramonster2.mp3) &
+    hyprctl notify -1 2500 "#71E078" "fontsize:16 I KNOW THE KIND OF POWER YOU VIBE WITH"
+    #notify-send "I KNOW THE KIND OF POWER YOU VIBE WITH"
+    sleep 2.2
+    dimland --allow-opaque -a 0.9
+    (play -q $HOME/Scripts/auramonster3.mp3) &
+    hyprctl notify -1 2500 "#71E078" "fontsize:16 THE KIND THAT NEVER STOPS CLIMBING"
+    #notify-send "THE KIND THAT NEVER STOPS CLIMBING"
+    sleep 1.25
+    dimland --allow-opaque -a 0.87
+    sleep 1.25
+    dimland --allow-opaque -a 0.82
+    (play -q $HOME/Scripts/auramonster4.mp3) &
+    hyprctl notify -1 2500 "#71E078" "fontsize:16 NO MATTER WHAT"
+    #notify-send "NO MATTER WHAT"
+    sleep .5
+    dimland --allow-opaque -a 0.75
+    sleep .5
+    dimland --allow-opaque -a 0.72
+    sleep .5
+    dimland --allow-opaque -a 0.68
+    sleep .5
+    dimland --allow-opaque -a 0.4
+    sleep .5
+    dimland --allow-opaque -a 0.2
+    sleep .5
+    dimland --allow-opaque -a 0.0
+    sleep .5
+else
+    rm $TOGGLE
+    pkill play
+    $HOME/Scripts/random-wallpaper &
+    pkill ironbar
+    pkill ironbar
+    ironbar &
+fi
+

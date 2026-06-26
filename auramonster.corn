@@ -1,0 +1,50 @@
+{
+    position = "top"
+    height = 30
+    start = [
+        {
+            type = "workspaces"
+            all_monitors = false
+
+            favorites.eDP-1 = ["1" "2" "3" "4" "5" "6"]
+            favorites.DP-1 = ["7" "8" "9"]
+
+            name_map.1 = "1"
+            name_map.2 = "2"
+            name_map.3 = "3"
+            name_map.4 = "4"
+            name_map.5 = "5"
+            name_map.6 = "6"
+            name_map.7 = "7"
+            name_map.8 = "8"
+            name_map.9 = "9"
+        }
+    ]
+    center = [
+        //{
+        //    type = "music"
+        //    player_type = "mpris"
+        //    format = "{title} / {artist}"
+        //    truncate = "end"
+        //    icons.play = ""
+        //    icons.pause = ""
+        //}
+        {
+            type = "label"
+            label = "<span foreground=\"red\" size=\"xx-large\"> 𝓐𝓤𝓡𝓐 𝓜𝓞𝓝𝓢𝓣𝓔𝓡 </span>"
+        }
+    ]
+    end = [
+        {
+            type = "tray"
+            icon_size = 18
+            direction = "horizontal"
+            on_click_left = "default"
+        }
+
+        {
+            type = "clock"
+            format = "%I:%M %p"
+        }
+    ]
+}
